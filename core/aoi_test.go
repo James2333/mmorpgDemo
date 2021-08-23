@@ -9,7 +9,7 @@ import (
 func TestNewAOIManager(t *testing.T) {
 
 	aoiMgr:= NewAOIManager(0,250,5,0,250,5)
-	fmt.Println(aoiMgr)
+	log.Println(aoiMgr)
 	//type args struct {
 	//	minX  int
 	//	maxX  int

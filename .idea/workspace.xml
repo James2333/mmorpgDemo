@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="708ed433-624a-403a-b1e8-4d8e28c66bcc" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="708ed433-624a-403a-b1e8-4d8e28c66bcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apis/move.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apis/worldChat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/wordManager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/aoi.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/aoi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/aoi_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/aoi_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/player.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/player.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_client/client_Data/output_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game_client/client_Data/output_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pb/msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/pb/msg.proto" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +48,25 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1x1dHuvTSiAwP6tKr4a6opwKdEd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
@@ -34,19 +78,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build mmoGame">
+    <configuration name="go build mmoGame" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mmoGame" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="mmoGame" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestNewAOIManager in mmoGame/core" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mmoGame" />
       <working_directory value="$PROJECT_DIR$/core" />
@@ -60,15 +101,58 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build mmoGame" />
         <item itemvalue="Go Test.TestNewAOIManager in mmoGame/core" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
     <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1629709183375">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1280.760/2560.0.1920.1040@2560.0.1920.1040" timestamp="1629709183375" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1629709183375">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1280.760/2560.0.1920.1040@2560.0.1920.1040" timestamp="1629709183375" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1629709183375">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1280.760/2560.0.1920.1040@2560.0.1920.1040" timestamp="1629709183375" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1629709183375">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1280.760/2560.0.1920.1040@2560.0.1920.1040" timestamp="1629709183375" />
+    <state x="3223" y="228" width="594" height="584" key="find.popup" timestamp="1629709308071">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3223" y="228" width="594" height="584" key="find.popup/0.0.1280.760/2560.0.1920.1040@2560.0.1920.1040" timestamp="1629709308071" />
+    <state x="3183" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629708919712">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3183" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.760/2560.0.1920.1040@2560.0.1920.1040" timestamp="1629708919712" />
   </component>
 </project>

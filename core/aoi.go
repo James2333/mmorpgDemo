@@ -2,6 +2,14 @@ package core
 
 import "fmt"
 
+const (
+	AOI_MIN_X  int = 85
+	AOI_MAX_X  int = 410
+	AOI_CNTS_X int = 10
+	AOI_MIN_Y  int = 75
+	AOI_MAX_Y  int = 400
+	AOI_CNTS_Y int = 20
+)
 /*
    AOI管理模块
 */
@@ -124,7 +132,7 @@ func (m *AOIManager) GetPIDsByPos(x, y float32) (playerIDs []int) {
 	grIDs := m.GetSurroundGrIDsByGID(gID)
 	for _, v := range grIDs {
 		playerIDs = append(playerIDs, v.GetPlyerIDs()...)
-		//fmt.Printf("===> grID ID : %d, pIDs : %v  ====", v.GID, v.GetPlyerIDs())
+		//log.Printf("===> grID ID : %d, pIDs : %v  ====", v.GID, v.GetPlyerIDs())
 	}
 
 	return
