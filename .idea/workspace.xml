@@ -20,19 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="708ed433-624a-403a-b1e8-4d8e28c66bcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apis/move.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apis/worldChat.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/wordManager.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/aoi.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/aoi.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/aoi_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/aoi_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/player.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/player.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_client/client_Data/output_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game_client/client_Data/output_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pb/msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/pb/msg.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +109,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
